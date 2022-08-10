@@ -1,0 +1,47 @@
+table {
+	width:60%;
+	border-collapse: collapse;
+	margin:0  auto;
+	
+}
+
+table, td, th {  
+	border: 1px solid #ddd;
+	text-align: left;
+}
+
+th, td{
+	padding: 15px;
+}
+
+label {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.row {
+    width: 100%;
+    display: block;
+}
+
+#formsubmit  button{
+	width: 200px;
+	display: block;
+	margin: 10px 0px;
+}
+.row textarea {
+    width: 40%;
+    height: 200px;
+}
+
+.row input[type="text"] {
+    width: 40%;
+}
+
+h1.success {
+    font-size: 18px;
+    text-align: center;
+    color: green;
+    margin: 20px 0px;
+}
